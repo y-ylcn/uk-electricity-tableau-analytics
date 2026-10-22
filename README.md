@@ -79,30 +79,30 @@ In Tableau, the model keeps demand, forecasts and market prices at their appropr
 
 ```text
 uk-electricity-tableau-analytics/
-├── README.md
-├── methodology.md
 ├── dashboard/
 │   └── UK_Electricity_Demand_and_Market_Performance.twbx
 ├── data/
-│   ├── raw/
-│   │   ├── elexon/
-│   │   │   ├── forecast_earliest_2025.csv
-│   │   │   ├── forecast_earliest_2026.csv
-│   │   │   ├── market_index_2025.csv
-│   │   │   └── market_index_2026.csv
-│   │   └── neso/
-│   │       ├── demanddata_2025.csv
-│   │       └── demanddataupdate_2026.csv
-│   └── dimensions/
-│       ├── DimDate.csv
-│       └── DimSettlementPeriod.csv
-└── images/
-    ├── executive-overview.png
-    ├── demand-forecast.png
-    ├── market-price.png
-    ├── system-renewables.png
-    ├── supporting-analysis.png
-    └── data-quality.png
+│   ├── dimensions/
+│   │   ├── DimDate.csv
+│   │   └── DimSettlementPeriod.csv
+│   └── raw/
+│       ├── elexon/
+│       │   ├── forecast_earliest_2025.csv
+│       │   ├── forecast_earliest_2026.csv
+│       │   ├── market_index_2025.csv
+│       │   └── market_index_2026.csv
+│       └── neso/
+│           ├── demanddata_2025.csv
+│           └── demanddataupdate_2026.csv
+├── images/
+│   ├── data-quality.png
+│   ├── demand-forecast.png
+│   ├── executive-overview.png
+│   ├── market-price.png
+│   ├── supporting-analysis.png
+│   └── system-renewables.png
+├── README.md
+└── methodology.md
 ```
 
 The Tableau workbook contains **six dashboards built from 24 worksheets**.
