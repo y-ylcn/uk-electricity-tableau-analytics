@@ -179,7 +179,7 @@ The project checks included:
 
 - **Price versus demand:** APX prices increased by about **19.3%** between the two January–August windows while average demand changed by roughly **0.02%**. This does not establish the cause of the price change. The Demand–APX fitted trend has **R² ≈ 0.157**, so this single-variable relationship leaves much of the price variation unexplained.
 - **Midday forecast errors:** Settlement-period MAE peaks around **SP27 (approximately 1,181 MW)**. Embedded solar follows a daytime pattern too, but patterns that share a time of day are not evidence that one causes the other. A correlation calculated across aggregated half-hour averages can be misleading for that reason.
-- **Wind and solar:** Estimated embedded wind and solar generation both have negative linear associations with active APX prices. The wind relationship is stronger (**R² = 0.186**) than the solar relationship (**R² = 0.044**). These are simple unadjusted relationships; they do not isolate the effect of renewable generation from demand, weather or other market conditions.
+- **Wind and solar:** Estimated embedded wind and solar generation both have negative linear associations with active APX prices. The wind relationship is stronger (**R² ≈ 0.186**) than the solar relationship (**R² ≈ 0.044**). These are simple unadjusted relationships; they do not isolate the effect of renewable generation from demand, weather or other market conditions.
 - **Forecast accuracy by day type:** Across the retained period, weekday MAPE is **2.92%**, compared with **3.40%** at weekends.
 - **Forecast accuracy over time:** January–August MAPE rises from **2.99%** to **3.36%**, but two historical windows are not enough to establish a permanent change in forecasting performance.
 
