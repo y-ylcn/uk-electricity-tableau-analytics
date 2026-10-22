@@ -12,7 +12,7 @@ This document sets out how the [UK Electricity Demand & Market Performance](READ
 
 The project uses `demanddata_2025.csv` for 2025 and `demanddataupdate_2026.csv` for 2026. The 2026 file is a **curated analysis copy**: Actual (`A`) records for **21–31 August 2026** from the [NESO Daily Demand Update](https://www.neso.energy/data-portal/daily-demand-update/demand_data_update) were appended to the earlier 2026 historic extract. The combined file is a fixed project snapshot rather than an unchanged official download.
 
-The retained demand series has **17,520** settlement-period records in 2025 and **11,662** in January–August 2026: **29,182 records** across **608 days**. NESO National Demand is an operational definition rather than a direct count of all end-user consumption. Embedded wind and solar are estimates for distribution-connected generation, not all GB renewable output. NESO may retrospectively revise historic data.
+The retained demand series has **29,182 settlement-period records** (all of 2025 and January–August 2026). NESO National Demand is an operational definition rather than a direct count of all end-user consumption. Embedded wind and solar are estimates for distribution-connected generation, not all GB renewable output. NESO may retrospectively revise historic data.
 
 ### Elexon earliest day-ahead forecast
 
@@ -133,8 +133,10 @@ The view compares the **average of those daily peaks** with the **single highest
 | Measure | 2025 | 2026 | Difference |
 | --- | ---: | ---: | ---: |
 | Average National Demand | 25,454.46 MW | 25,459.07 MW | **+0.02%** |
-| Earliest forecast MAPE | 2.9941% | 3.3572% | **+0.363 percentage points** |
+| Earliest forecast MAPE | 2.99% | 3.36% | **+0.36 percentage points** |
 | Volume-weighted active APX price | £84.21/MWh | £100.50/MWh | **+19.3%** |
+
+The MAPE difference is calculated from unrounded values.
 
 Across the full **January 2025–August 2026** window, checked headline values include **25,878.73 MW** average National Demand, **47,382 MW** peak demand, **754.08 MW** forecast MAE, **3.06%** MAPE, **−30.39 MW** Bias, **1,030.79 MW** RMSE and **£88.97/MWh** volume-weighted active APX price.
 
