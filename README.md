@@ -11,7 +11,7 @@ The analysis covers **all of 2025 and January–August 2026**. Year-on-year resu
 ## Key findings
 
 - **APX prices increased despite little change in average demand.** The volume-weighted price for active APXMIDP observations rose from **£84.21/MWh** in January–August 2025 to **£100.50/MWh** in January–August 2026 (**+19.3%**). Average National Demand barely moved: **25,454.46 MW** versus **25,459.07 MW** (**+0.02%**). This comparison does not explain what drove the price increase.
-- **Day-ahead forecast accuracy weakened in the 2026 comparison period.** Mean absolute percentage error (MAPE) increased from **2.99%** to **3.36%**, a rise of about **0.36 percentage points**.
+- **Day-ahead forecast accuracy weakened in the 2026 comparison period.** Mean absolute percentage error (MAPE) increased from **2.99%** to **3.36%**.
 - **Forecast accuracy varies by time of day and day type.** Mean absolute error (MAE) peaks around **Settlement Period 27**, at approximately **1,181 MW**. Across the full dataset, MAPE is **2.92% on weekdays** and **3.40% on weekends**. These patterns do not identify the causes of forecast errors.
 - **Demand and APX prices show a positive but limited association.** The Demand–APX scatterplot has a positive fitted trend, with **R² ≈ 0.157**. Demand alone accounts for only a small share of the observed price variation in that simple model.
 - **Embedded wind and solar have different relationships with APX prices.** Both show negative associations in the retained data, stronger for estimated embedded wind (**R² ≈ 0.186**) than solar (**R² ≈ 0.044**). These are descriptive relationships, not evidence of a causal effect on prices.
